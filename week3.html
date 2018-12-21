@@ -1,30 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Week2 homework</title>
+	<title></title>
 	<style type="text/css">
-		nav {
-			background-color: red;
-			color: orange;
-
+		body {
+			font-family: Arial, Verdana, sans-serif;
+			width: 100%;
 		}
-		li {
-			color: blue;
-			display: inline;
-			padding: 10px;
-
+		.nav {
+			background-color: gray;
+		}
+		.header {
+			background-color: #efefef;
+			width: 90% auto;
+			padding: 3em;
+		}
+		.content {
+			margin: 3%;
+			padding: 1%;
+			overflow: auto;
+		}
+		.column1, .column2, .column3 {
+			width: 31.3%;
+			float: right;
+			padding: 1%;
+		}
+		footer {
+			border-top: 1px solid black;
+		}
+		.footer {
+			margin: 3%;
+			padding: 1%;
 		}
 	</style>
 </head>
 <body>
-	<nav id="navbar">
-		<div>navbar</div>
-		<div class="nav">
+	<nav class="nav">
+		<div>Navbar</div>
+		<div>
 			<ul>
-				<li><a href="">home</a></li>
-				<li><a href="">like</a></li>
+				<li>Home</li>
+				<li>Link</li>
 			</ul>
 		</div>
 	</nav>
+	<header class="header">
+		<h1>Hello, World</h1>
+		<p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+		<button class="btn1">Learn more &#062;&#062;</button>
+	</header>
+	<div class="content">
+		<div class="column1">
+			<h2>Heading</h2>
+			<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+			<button class="btn2">View details &#062;&#062;</button>
+		</div>
+		<div class="column2">
+			<h2>Heading</h2>
+			<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+			<button class="btn3">View details &#062;&#062;</button>
+		</div>
+		<div class="column3">
+			<h2>Heading</h2>
+			<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+			<button class="btn4">View details &#062;&#062;</button>
+		</div>
+	</div>
+	<footer class="footer"> &copy; Copyright 2017</footer>
 </body>
 </html>
